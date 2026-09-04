@@ -1,0 +1,21 @@
+# Python 3.8+ (3.10 recommended)
+# Training requires a CUDA-enabled GPU (the trainer calls model.cuda()).
+#
+# Install a CUDA build of PyTorch first if you have a GPU:
+#   https://pytorch.org/get-started/locally/
+# Then: pip install -r requirements.txt
+
+torch>=2.0
+torchvision>=0.15
+torch-geometric>=2.3
+
+numpy>=1.23
+pandas>=1.5
+tqdm>=4.64
+Pillow>=9.0
+matplotlib>=3.6
+seaborn>=0.12
+scikit-learn>=1.2
+h5py>=3.7
+opencv-python>=4.6
+tensorboardX>=2.6
